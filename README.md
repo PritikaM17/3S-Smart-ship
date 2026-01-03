@@ -145,11 +145,4 @@ interface HierarchyNode {
 - **CSS Modules**: Component-scoped styling
 - **React Scripts**: Build tooling (create-react-app)
 
-## License
-
-This project is part of the 3S Smart Ship Solutions interview process.
-
----
-
-**3S Smart Ship Solutions © 2025**
 
