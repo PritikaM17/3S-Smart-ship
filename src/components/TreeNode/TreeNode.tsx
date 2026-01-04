@@ -205,6 +205,9 @@ const TreeNode: React.FC<TreeNodeProps> = ({
                   e.stopPropagation();
                   onToggle(node.id);
                 }}
+                onTouchStart={(e) => {
+                  e.stopPropagation();
+                }}
                 aria-label={isExpanded ? 'Collapse' : 'Expand'}
               >
                 {isExpanded ? '−' : '+'}
